@@ -1,4 +1,27 @@
 # FixMiPlace
+**FixMiPlace** is Jamaica’s trusted online platform that connects homeowners with skilled local professionals for all things home improvement and repair. Whether you're fixing a leaky faucet or renovating an entire room, we've got you covered.
+
+## 🔧 What We Offer
+- **Verified Contractors & Tradespeople**  
+  From electricians to carpenters, connect with pros who know the job.
+
+- **Transparent Pricing**  
+  Know the cost upfront—no surprises.
+
+- **Easy Booking**  
+  Schedule services at your convenience, right from your device.
+
+- **Local & Reliable**  
+  Built for Jamaicans, by Jamaicans—because we understand what "mi place" means.
+
+## 🇯🇲 Why FixMiPlace?
+We believe every home should feel taken care of. FixMiPlace brings trust, ease, and a little island flavor to every project—big or small.
+
+---
+
+✨ *Real help. Real homes. Right ya so.*
+
+---
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.0.3.
 
