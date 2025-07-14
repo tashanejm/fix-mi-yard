@@ -1,0 +1,14 @@
+<nav>
+  @for (item of navigationItems$(); track item) {
+    <a routerLinkActive="navigation-active"
+       [routerLink]="item.routerLink"
+       [queryParams]="item.queryParams"
+       [fragment]="item.fragment"
+       [state]="item.state"
+       [queryParamsHandling]="item.queryParamsHandling"
+       [replaceUrl]="item.replaceUrl"
+       [skipLocationChange]="item.skipLocationChange"
+       [preserveFragment]="item.preserveFragment"
+       [routerLinkActiveOptions]="item.routerLinkActiveOptions || { exact: false }">{{ item.label }}</a>
+  }
+</nav>

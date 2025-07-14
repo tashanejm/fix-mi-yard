@@ -1,3 +1,14 @@
-<div>
-  <
+<div class="flex justify-between items-center">
+  <h1 class="font-bold">{{ 'application.title' | translate }}</h1>
+  <div class="flex items-center gap-2">
+    <button pButton type="button" [text]="true" [rounded]="true">
+      <span>{{ 'common.actions.joinAsPro' | translate }}</span>
+    </button>
+    <button pButton type="button" severity="secondary" [rounded]="true">
+      <span>{{ 'common.actions.logIn' | translate }}</span>
+    </button>
+    <button pButton type="button" severity="danger" [rounded]="true">
+      <span>{{ 'common.actions.signUp' | translate }}</span>
+    </button>
+  </div>
 </div>

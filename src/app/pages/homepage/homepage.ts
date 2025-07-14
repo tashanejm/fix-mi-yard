@@ -1,10 +1,8 @@
-import {Component} from '@angular/core';
-import {Button} from 'primeng/button';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-homepage',
   imports: [
-    Button
   ],
   templateUrl: './homepage.html',
   styleUrl: './homepage.scss'

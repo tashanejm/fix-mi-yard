@@ -1,12 +1,12 @@
 import { Routes } from '@angular/router';
-import {NavigationRoute} from './core/navigation-route.enum';
-import {Homepage} from './pages/homepage/homepage';
+import { NavigationRoute } from './core/navigation-route.enum';
+import { Homepage } from './pages/homepage/homepage';
 
 export const routes: Routes = [
   {
     path: NavigationRoute.HOMEPAGE,
     loadComponent: () => Homepage,
-    title: 'Homepage' //todo: translate
+    title: 'Homepage' // todo: translate
   },
   {
     path: NavigationRoute.EMPTY,
@@ -15,6 +15,6 @@ export const routes: Routes = [
   },
   {
     path: NavigationRoute.WILDCARD,
-    loadComponent: () => Homepage,
+    loadComponent: () => Homepage
   }
 ];

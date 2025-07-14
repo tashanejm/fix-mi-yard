@@ -1,0 +1,35 @@
+{
+  "application": {
+    "description": "",
+    "title": "FixMiYard"
+  },
+  "common": {
+    "actions": {
+      "joinAsPro": "Join as Pro",
+      "logIn": "Log In",
+      "signUp": "Sign Up"
+    }
+  },
+  "page": {
+    "articlesAndAdvice": {
+      "description": "",
+      "fields": {},
+      "title": "Articles & Advice"
+    },
+    "forContractors": {
+      "description": "",
+      "fields": {},
+      "title": "For Contractors"
+    },
+    "home": {
+      "description": "",
+      "fields": {},
+      "title": "Home"
+    },
+    "howItWorks": {
+      "description": "",
+      "fields": {},
+      "title": "How it works"
+    }
+  }
+}

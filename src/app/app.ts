@@ -1,12 +1,14 @@
-import {Component} from '@angular/core';
-import {RouterOutlet} from '@angular/router';
-import {Homepage} from './pages/homepage/homepage';
+import { Component } from '@angular/core';
+import { RouterOutlet } from '@angular/router';
+import { Header } from './core/components/header/header';
+import { NavigationMenu } from './core/components/navigation-menu/navigation-menu';
 
 @Component({
   selector: 'app-root',
   imports: [
     RouterOutlet,
-    Homepage
+    Header,
+    NavigationMenu
   ],
   templateUrl: './app.html',
   styleUrl: './app.scss'

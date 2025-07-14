@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { Homepage } from './homepage';
+import { NavigationMenu } from './navigation-menu';
 
-describe('Homepage', () => {
-  let component: Homepage;
-  let fixture: ComponentFixture<Homepage>;
+describe('NavigationMenu', () => {
+  let component: NavigationMenu;
+  let fixture: ComponentFixture<NavigationMenu>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [Homepage]
+      imports: [NavigationMenu]
     })
       .compileComponents();
 
-    fixture = TestBed.createComponent(Homepage);
+    fixture = TestBed.createComponent(NavigationMenu);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
