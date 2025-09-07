@@ -1,9 +1,3 @@
 {
-  "quickSelect": {
-    "handyperson": "{primary.500}",
-    "handypersonText": "{slate.50}",
-    "handypersonIcon": "{primary.50}",
-    "handypersonIconHover": "{primary.100}",
-    "handypersonIconActive": "{primary.200}"
-  }
+
 }

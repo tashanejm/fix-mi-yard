@@ -4,7 +4,6 @@ import light from './light.json';
 import dark from './dark.json';
 import components from './components.json';
 
-console.log(Material)
 export const basicPreset: unknown = definePreset(
   Material,
   {
@@ -30,4 +29,4 @@ export const basicPreset: unknown = definePreset(
     }
   }
 );
-console.log((basicPreset as any))
+// console.log((basicPreset as any))

@@ -15,7 +15,7 @@ export class Base {
 
   constructor() {
     this.translateService = inject(TranslateService);
-    this.languageChange = toSignal(this.translateService.onLangChange.asObservable());
+    this.languageChange = toSignal(this.translateService.onLangChange);
     this.materialSymbols = MaterialSymbol;
     this.fieldLength = FieldLength;
     this.scopedToken = scopedDesignToken;

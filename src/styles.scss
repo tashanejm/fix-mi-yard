@@ -1,9 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
 @use 'primeicons/primeicons.css';
 @use '@material-symbols/font-400';
-@use 'tailwindcss';
-@use './app/core/theme/theme';
-@plugin 'tailwindcss-primeui';
+//@use 'tailwindcss';
+//@use './app/core/theme/theme';
+@use 'tailwind.css';
+//@plugin 'tailwindcss-primeui';
 
 html, body {
   height: 100%;
