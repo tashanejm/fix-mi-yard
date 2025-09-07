@@ -1,10 +1,37 @@
 /* You can add global styles to this file, and also import other style files */
-@use 'tailwindcss';
 @use 'primeicons/primeicons.css';
+@use '@material-symbols/font-400';
+@use 'tailwindcss';
+@use './app/core/theme/theme';
 @plugin 'tailwindcss-primeui';
 
 html, body {
   height: 100%;
   margin: 0;
   padding: 0;
+}
+
+.material-symbols-rounded {
+  line-height: 1rem;
+}
+
+.p-inputtext {
+  width: 100%;
+}
+
+:root {
+  --red-50: #ffe4da; // Very light, almost peach
+  --red-100: #ffc9b5; // Soft blush
+  --red-200: #ffad92; // Light coral
+  --red-300: #ff916f; // Warm salmon
+  --red-400: #ff714d; // Vibrant orange-red
+  --red-500: #ff4c2b; // True red-orange
+  --red-600: #ff0000; // Pure red
+  --red-700: #c81707; // Deep crimson
+  --red-800: #931c0b; // Rich brick red
+  --red-900: #621a0b; // Dark oxblood
+
+
+  --jm-primary-text: var(--red-700);
+
 }

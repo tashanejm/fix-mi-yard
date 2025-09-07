@@ -4,7 +4,7 @@ import {
   provideBrowserGlobalErrorListeners,
   provideZonelessChangeDetection
 } from '@angular/core';
-import { provideRouter } from '@angular/router';
+import { provideRouter, TitleStrategy } from '@angular/router';
 import { routes } from './app.routes';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 import { providePrimeNG } from 'primeng/config';
@@ -14,6 +14,7 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { basicPreset } from './core/theme/basic/basic.preset';
 import { appInitializer } from './core/app.init';
 import { ENGLISH_US } from './core/common/constant/language.constant';
+import { AppTitleStrategy } from './core/common/app-title.strategy';
 
 export const appConfig: ApplicationConfig = {
   providers: [
@@ -27,7 +28,8 @@ export const appConfig: ApplicationConfig = {
       theme: {
         preset: basicPreset,
         options: {
-          ripple: true
+          ripple: true,
+          prefix: 'jm'
         }
       }
     }),
@@ -38,6 +40,7 @@ export const appConfig: ApplicationConfig = {
         useFactory: (http: HttpClient): TranslateHttpLoader => new TranslateHttpLoader(http, './i18n/', '.json'),
         deps: [HttpClient]
       }
-    })
+    }),
+    { provide: TitleStrategy, useClass: AppTitleStrategy }
   ]
 };

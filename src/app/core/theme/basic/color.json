@@ -226,3 +226,23 @@
     "700": "#334155"
   }
 }
+
+//| Shade | Hex Code | Description |
+//| Gray 50 | #FAFAFA | Ultra-light, almost white |
+//| Gray 100 | #F5F5F5 | Soft background |
+//| Gray 200 | #EEEEEE | Light border or card fill |
+//| Gray 300 | #E0E0E0 | Subtle divider or hover |
+//| Gray 400 | #BDBDBD | Muted text or icons |
+//| Gray 500 | #9E9E9E | Default gray, balanced tone |
+//| Gray 600 | #757575 | Body text, subdued elements |
+//| Gray 700 | #616161 | Stronger contrast, dark mode |
+//| Gray 800 | #424242 | Deep UI elements, modals |
+//| Gray 900 | #212121 | Near-black, high contrast |
+//| Gray 950 | #161616 | Rich black with subtle warmth |
+//
+//
+//
+//🧠 Pro Tips
+//- Use Gray 50–200 for backgrounds and surfaces.
+//- Gray 400–600 works well for text, icons, and borders.
+//- Gray 700–950 is ideal for dark mode, overlays, and emphasis.

@@ -1,14 +1,20 @@
 <nav>
-  @for (item of navigationItems$(); track item) {
-    <a routerLinkActive="navigation-active"
-       [routerLink]="item.routerLink"
-       [queryParams]="item.queryParams"
-       [fragment]="item.fragment"
-       [state]="item.state"
-       [queryParamsHandling]="item.queryParamsHandling"
-       [replaceUrl]="item.replaceUrl"
-       [skipLocationChange]="item.skipLocationChange"
-       [preserveFragment]="item.preserveFragment"
-       [routerLinkActiveOptions]="item.routerLinkActiveOptions || { exact: false }">{{ item.label }}</a>
-  }
+  <ul class="flex flex-row">
+    @for (item of navigationItems$(); track item) {
+      <li>
+        <!--TODO: add hover and other accessibility code  -->
+        <a routerLinkActive="jm-navigation-menu-link-active"
+           class="p-4 font-bold"
+           [routerLink]="item.routerLink"
+           [queryParams]="item.queryParams"
+           [fragment]="item.fragment"
+           [state]="item.state"
+           [queryParamsHandling]="item.queryParamsHandling"
+           [replaceUrl]="item.replaceUrl"
+           [skipLocationChange]="item.skipLocationChange"
+           [preserveFragment]="item.preserveFragment"
+           [routerLinkActiveOptions]="item.routerLinkActiveOptions || { exact: false }">{{ item.label }}</a>
+      </li>
+    }
+  </ul>
 </nav>

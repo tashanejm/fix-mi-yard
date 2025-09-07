@@ -1,0 +1,13 @@
+:host ::ng-deep {
+  .jm-search-background {
+    background-image: url('/images/mock/roof.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 2rem 4rem;
+  }
+
+    .jm-project-template-container {
+      background: lightgray;
+    }
+}
