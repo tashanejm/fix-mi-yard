@@ -6,7 +6,9 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "lint": "ng lint",
+    "eslint": "npx eslint"
   },
   "prettier": {
     "printWidth": 100,
@@ -23,12 +25,18 @@
   "private": true,
   "packageManager": "npm@11.4.2",
   "dependencies": {
+    "@angular-eslint/builder": "^21.0.1",
+    "@angular-eslint/eslint-plugin": "^21.0.1",
+    "@angular-eslint/eslint-plugin-template": "^21.0.1",
+    "@angular-eslint/schematics": "^21.0.1",
+    "@angular-eslint/template-parser": "^21.0.1",
     "@angular/common": "^21.0.0",
     "@angular/compiler": "^21.0.0",
     "@angular/core": "^21.0.0",
     "@angular/forms": "^21.0.0",
     "@angular/platform-browser": "^21.0.0",
     "@angular/router": "^21.0.0",
+    "@stylistic/eslint-plugin": "^5.6.1",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0"
   },
@@ -36,11 +44,16 @@
     "@angular/build": "^21.0.2",
     "@angular/cli": "^21.0.2",
     "@angular/compiler-cli": "^21.0.0",
+    "@eslint/js": "^9.39.1",
     "@tailwindcss/postcss": "^4.1.12",
+    "angular-eslint": "21.0.1",
+    "eslint": "^9.39.1",
+    "globals": "^16.5.0",
     "jsdom": "^27.1.0",
     "postcss": "^8.5.3",
     "tailwindcss": "^4.1.12",
     "typescript": "~5.9.2",
+    "typescript-eslint": "^8.46.4",
     "vitest": "^4.0.8"
   }
 }
