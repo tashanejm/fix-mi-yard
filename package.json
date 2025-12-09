@@ -8,7 +8,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "lint": "ng lint",
-    "eslint": "npx eslint --format json --output-file eslint-report.json"
+    "eslint": "npx eslint --format @microsoft/eslint-formatter-sarif --output-file eslint-report.sarif"
   },
   "prettier": {
     "printWidth": 100,
@@ -45,6 +45,7 @@
     "@angular/cli": "^21.0.2",
     "@angular/compiler-cli": "^21.0.0",
     "@eslint/js": "^9.39.1",
+    "@microsoft/eslint-formatter-sarif": "^3.1.0",
     "@tailwindcss/postcss": "^4.1.12",
     "angular-eslint": "21.0.1",
     "eslint": "^9.39.1",
