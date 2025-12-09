@@ -22,3 +22,12 @@ jobs:
       run: npm ci
     - name: NPM Build
       run: npm run build
+    - name: Eslint
+      run: npm run eslint
+      continue-on-error: true
+    - name: Upload a Build Artifact
+      uses: actions/upload-artifact@v5.0.0
+      with:
+        name: eslint-report
+        path: eslint-report.json    
+          
