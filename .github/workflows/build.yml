@@ -22,3 +22,10 @@ jobs:
       run: npm ci
     - name: NPM Build
       run: npm run build
+    - name: Eslint
+      run: npm run eslint
+      continue-on-error: true
+    - name: Upload Eslint SARIF to GitHub Security tab
+      uses: github/codeql-action/upload-sarif@v4
+      with:
+        sarif_file: eslint-report.sarif
