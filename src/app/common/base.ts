@@ -12,6 +12,7 @@ export class Base {
   protected readonly fieldLength: typeof FieldLength;
   protected readonly navigationRoute: typeof NavigationRoute;
   protected readonly languageChange: Signal<LangChangeEvent | undefined>;
+  protected designToken: any;
   // protected readonly scopedToken;
 
   constructor() {

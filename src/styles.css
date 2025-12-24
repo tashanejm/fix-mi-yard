@@ -5,6 +5,8 @@
 @import '@material-symbols/font-400';
 /*@tailwind utilities;*/
 /*@import url('fonts.googleapis.com');*/
+@import './light.css';
+@import './dark.css';
 
 html, body {
   @apply h-full m-0 p-0;
@@ -48,12 +50,10 @@ body {
   }
   /* Optional: ensure all elements inherit the font if needed */
   /* * { font-family: var(--font-roboto); } */
-
-
-  @theme {
-    /* Map Tailwind colors to standard CSS variables */
-    --tailwind-blue-500: theme('colors.blue.500');
-    --tailwind-red-500: theme('colors.red.500');
-    /* ... add other colors you plan to use ... */
-  }
+  /*@theme {*/
+  /*  !* Map Tailwind colors to standard CSS variables *!*/
+  /*  --tailwind-blue-500: theme('colors.blue.500');*/
+  /*  --tailwind-red-500: theme('colors.red.500');*/
+  /*  !* ... add other colors you plan to use ... *!*/
+  /*}*/
 }

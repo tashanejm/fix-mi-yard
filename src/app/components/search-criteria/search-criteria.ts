@@ -1,9 +1,10 @@
-import { Component } from '@angular/core';
+import { Component, model, ModelSignal } from '@angular/core';
 import { IconField } from 'primeng/iconfield';
 import { InputIcon } from 'primeng/inputicon';
 import { InputText } from 'primeng/inputtext';
 import { Base } from '../../common/base';
 import { TranslatePipe } from '@ngx-translate/core';
+import { FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-search-criteria',
@@ -11,27 +12,12 @@ import { TranslatePipe } from '@ngx-translate/core';
     IconField,
     InputIcon,
     InputText,
-    TranslatePipe
+    TranslatePipe,
+    FormsModule
   ],
   templateUrl: './search-criteria.html',
   styleUrl: './search-criteria.scss'
 })
 export class SearchCriteria extends Base {
-  // protected dtTest: any | undefined = {
-    //   button: {
-    //     root: {
-    //       primary: {
-    //         background: 'var(--tailwind-blue-500)', // Use the CSS variable
-    //         hoverBackground: 'var(--tailwind-blue-600)',
-    //         color: 'var(--tailwind-white)'
-    //       }
-    //     }
-    //   },
-    //   primary: {
-    //     background: 'var(--tailwind-blue-500)', // Use the CSS variable
-    //     hoverBackground: 'var(--tailwind-blue-600)',
-    //     color: 'var(--tailwind-white)'
-    //   }
-    // };
-
+  public value: ModelSignal<string> = model<string>('');
 }

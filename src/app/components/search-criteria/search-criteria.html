@@ -3,7 +3,8 @@
          role="textbox"
          [attr.aria-label]="'common.fields.searchCriteria' | translate"
          [maxLength]="fieldLength.LENGTH_50"
-         [placeholder]="'common.placeholder.whatCanWeHelpYouWith' | translate">
+         [placeholder]="'common.placeholder.whatCanWeHelpYouWith' | translate"
+         [(ngModel)]="value">
   <p-inputicon class="!inset-y-4">
     <i class="material-symbols-rounded">{{materialSymbols.SEARCH}}</i>
   </p-inputicon>

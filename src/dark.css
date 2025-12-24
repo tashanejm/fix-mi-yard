@@ -1,0 +1,8 @@
+.dark {
+  /*Quick Selection*/
+  --handy-person-icon-color: theme('colors.blue.100');
+  --landscaping-icon-color: theme('colors.green.100');
+  --plumbing-icon-color: theme('colors.blue.100');
+  --cleaning-icon-color: theme('colors.purple.100');
+  --electrical-icon-color: theme('colors.orange.100');
+}

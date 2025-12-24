@@ -1,0 +1,8 @@
+:root {
+  /*Quick Selection*/
+  --handy-person-icon-color: theme('colors.yellow.500');
+  --landscaping-icon-color: theme('colors.green.500');
+  --plumbing-icon-color: theme('colors.blue.500');
+  --cleaning-icon-color: theme('colors.purple.500');
+  --electrical-icon-color: theme('colors.orange.500');
+}
