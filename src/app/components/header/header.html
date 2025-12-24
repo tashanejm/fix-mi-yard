@@ -1,0 +1,14 @@
+<div class="flex justify-between mx-2 mb-2">
+  <h1>{{ 'application.title' | translate }}</h1>
+  <div class="flex items-center gap-2">
+    <button pButton pRipple type="button" severity="contrast" [text]="true" [rounded]="true">
+      <span pButtonLabel>{{ 'common.actions.joinAsPro' | translate }}</span>
+    </button>
+    <button pButton pRipple type="button" severity="secondary" [rounded]="true">
+      <span pButtonLabel>{{ 'common.actions.logIn' | translate }}</span>
+    </button>
+    <button pButton pRipple type="button" severity="primary" [rounded]="true">
+      <span pButtonLabel>{{ 'common.actions.signUp' | translate }}</span>
+    </button>
+  </div>
+</div>

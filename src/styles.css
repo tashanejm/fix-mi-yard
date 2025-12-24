@@ -1,3 +1,59 @@
 /* You can add global styles to this file, and also import other style files */
 
 @import "tailwindcss";
+/*@import 'tailwindcss/preflight';*/
+@import '@material-symbols/font-400';
+/*@tailwind utilities;*/
+/*@import url('fonts.googleapis.com');*/
+
+html, body {
+  @apply h-full m-0 p-0;
+}
+
+body {
+  @apply overflow-auto;
+}
+
+@layer base {
+  html, body {
+    font-family: "Roboto", system-ui, sans-serif;
+  }
+
+  html {
+    @apply text-xs;
+  }
+
+  @screen md {
+    html {
+      @apply text-base;
+    }
+  }
+
+  @screen lg {
+    html {
+      @apply text-lg;
+    }
+  }
+
+  @screen xl {
+    html {
+      @apply text-xl;
+    }
+  }
+
+  @screen 2xl {
+    html {
+      @apply text-2xl;
+    }
+  }
+  /* Optional: ensure all elements inherit the font if needed */
+  /* * { font-family: var(--font-roboto); } */
+
+
+  @theme {
+    /* Map Tailwind colors to standard CSS variables */
+    --tailwind-blue-500: theme('colors.blue.500');
+    --tailwind-red-500: theme('colors.red.500');
+    /* ... add other colors you plan to use ... */
+  }
+}

@@ -1,0 +1,10 @@
+<p-icon-field>
+  <input pInputText type="text" id="global-search-input" class="w-full"
+         role="textbox"
+         [attr.aria-label]="'common.fields.searchCriteria' | translate"
+         [maxLength]="fieldLength.LENGTH_50"
+         [placeholder]="'common.placeholder.whatCanWeHelpYouWith' | translate">
+  <p-inputicon class="!inset-y-4">
+    <i class="material-symbols-rounded">{{materialSymbols.SEARCH}}</i>
+  </p-inputicon>
+</p-icon-field>

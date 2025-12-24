@@ -1,0 +1,61 @@
+{
+  "application": {
+    "description": "",
+    "title": "FixMiYard"
+  },
+  "common": {
+    "actions": {
+      "cleaning": "Cleaning",
+      "concrete": "Concrete",
+      "electrical": "Electrical",
+      "handyperson": "Handyperson",
+      "hvac": "HVAC",
+      "joinAsPro": "Join as Pro",
+      "landscaping": "Landscaping",
+      "logIn": "Log In",
+      "painting": "Painting",
+      "plumbing": "Plumbing",
+      "remodeling": "Remodeling",
+      "roofing": "Roofing",
+      "signUp": "Sign Up",
+      "windows": "Windows"
+    },
+    "fields": {
+      "searchCriteria": "Search Criteria"
+    },
+    "placeholder": {
+      "whatCanWeHelpYouWith": "What can we help you with?"
+    }
+  },
+  "page": {
+    "articlesAndAdvice": {
+      "description": "",
+      "fields": {},
+      "title": "Articles & Advice"
+    },
+    "forContractors": {
+      "description": "",
+      "fields": {},
+      "title": "For Contractors"
+    },
+    "home": {
+      "description": "",
+      "fields": {
+        "furnitureAssembly": "Furniture Assembly",
+        "electricalHelp": "Electrical Help",
+        "helpMoving": "Help Moving",
+        "homeCleaning": "Home Cleaning",
+        "mountTv": "Mount a Tv",
+        "mountArtOrShelves": "Mount Ar or Shelves",
+        "popularProjects": "Popular Projects",
+        "topRatedCertifiedProsInYourArea": "Find top rated-certified pros in your area"
+      },
+      "title": "Home"
+    },
+    "howItWorks": {
+      "description": "",
+      "fields": {},
+      "title": "How it works"
+    }
+  }
+}
