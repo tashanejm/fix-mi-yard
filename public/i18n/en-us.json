@@ -20,8 +20,20 @@
       "signUp": "Sign Up",
       "windows": "Windows"
     },
+    "components": {
+      "footer": {
+        "copyright": "© {{year}} FixMiYard. All rights reserved.",
+        "slogan": "Get it fixed. Get it done."
+      }
+    },
     "fields": {
-      "searchCriteria": "Search Criteria"
+      "company": "Company",
+      "facebook": "Facebook",
+      "instagram": "Instagram",
+      "legal": "Legal",
+      "product": "Product",
+      "searchCriteria": "Search Criteria",
+      "social": "Social"
     },
     "placeholder": {
       "whatCanWeHelpYouWith": "What can we help you with?"
@@ -32,6 +44,21 @@
       "description": "",
       "fields": {},
       "title": "Articles & Advice"
+    },
+    "blog": {
+      "description": "",
+      "fields": {},
+      "title": "Blog"
+    },
+    "contact": {
+      "description": "",
+      "fields": {},
+      "title": "Contact"
+    },
+    "customerService": {
+      "description": "",
+      "fields": {},
+      "title": "Customer Service"
     },
     "forContractors": {
       "description": "",
@@ -56,6 +83,26 @@
       "description": "",
       "fields": {},
       "title": "How it works"
+    },
+    "news": {
+      "description": "",
+      "fields": {},
+      "title": "News"
+    },
+    "services": {
+      "description": "",
+      "fields": {},
+      "title": "Services"
+    },
+    "termsOfUse": {
+      "description": "",
+      "fields": {},
+      "title": "Terms of Use"
+    },
+    "whatIsFixMiYard": {
+      "description": "",
+      "fields": {},
+      "title": "What is FixMiYard?"
     }
   }
 }

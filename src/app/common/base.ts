@@ -13,6 +13,7 @@ export class Base {
   protected readonly navigationRoute: typeof NavigationRoute;
   protected readonly languageChange: Signal<LangChangeEvent | undefined>;
   protected designToken: any;
+
   // protected readonly scopedToken;
 
   constructor() {
@@ -21,6 +22,11 @@ export class Base {
     this.materialSymbols = MaterialSymbol;
     this.fieldLength = FieldLength;
     this.navigationRoute = NavigationRoute;
+    this.initDesignToken();
     // this.scopedToken = scopedDesignToken;
+  }
+
+  protected initDesignToken(): void {
+    /* Override if needed. */
   }
 }

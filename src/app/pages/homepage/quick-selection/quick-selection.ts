@@ -21,6 +21,9 @@ export class QuickSelection extends Base {
   constructor() {
     super();
     this.computeSelections();
+  }
+
+  protected override initDesignToken(): void {
     this.designToken = {
       selection: {
         handyPerson: {
@@ -55,7 +58,7 @@ export class QuickSelection extends Base {
           value: {
             key: 'handyPerson',
             id: 'handy-person',
-            data: this.designToken?.selection?.handyPerson
+            data: this.designToken.selection?.handyPerson
           }
         },
         {
