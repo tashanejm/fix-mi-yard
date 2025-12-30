@@ -8,6 +8,7 @@
       "cleaning": "Cleaning",
       "concrete": "Concrete",
       "electrical": "Electrical",
+      "fencing": "Fencing",
       "handyperson": "Handyperson",
       "hvac": "HVAC",
       "joinAsPro": "Join as Pro",
@@ -65,17 +66,32 @@
       "fields": {},
       "title": "For Contractors"
     },
-    "home": {
+    "homepage": {
       "description": "",
       "fields": {
-        "furnitureAssembly": "Furniture Assembly",
+        "carpenter": "Carpenter",
         "electricalHelp": "Electrical Help",
+        "fenceRepair": "Fence Repair",
+        "furnitureAssembly": "Furniture Assembly",
+        "gardenMaintenance": "Garden Maintenance",
         "helpMoving": "Help Moving",
         "homeCleaning": "Home Cleaning",
+        "mountArtOrShelves": "Mount Art or Shelves",
         "mountTv": "Mount a Tv",
-        "mountArtOrShelves": "Mount Ar or Shelves",
+        "painting": "Painting",
+        "plumbingLeak": "Plumbing Leak Repair",
         "popularProjects": "Popular Projects",
-        "topRatedCertifiedProsInYourArea": "Find top rated-certified pros in your area"
+        "tileInstallation": "Tile Installation",
+        "topRatedCertifiedProsInYourArea": "Find top rated-certified pros in your area",
+        "welder": "Welder"
+      },
+      "popularProjects": {
+        "project1Description": "Professionals to help with your landscaping needs",
+        "project2Description": "Skilled handy-person for various home repairs",
+        "project3Description": "Experienced plumbers for all your plumbing issues",
+        "project4Description": "Expert painters to refresh your home's look",
+        "project5Description": "Reliable roofers for repairs and installations",
+        "project6Description": "Concrete specialists for driveways, patios, and more"
       },
       "title": "Home"
     },

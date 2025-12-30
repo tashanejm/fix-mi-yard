@@ -3,6 +3,7 @@ import { Card } from 'primeng/card';
 import { TranslatePipe } from '@ngx-translate/core';
 import { SearchCriteria } from '../../components/search-criteria/search-criteria';
 import { QuickSelection } from './quick-selection/quick-selection';
+import { PopularProjects } from './popular-projects/popular-projects';
 
 @Component({
   selector: 'app-homepage',
@@ -10,7 +11,8 @@ import { QuickSelection } from './quick-selection/quick-selection';
     Card,
     TranslatePipe,
     SearchCriteria,
-    QuickSelection
+    QuickSelection,
+    PopularProjects
   ],
   templateUrl: './homepage.html',
   styleUrl: './homepage.scss'

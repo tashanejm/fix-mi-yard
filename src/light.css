@@ -1,10 +1,18 @@
 :root {
+  --global-background-color: light-dark(var(--p-surface-0), var(--p-surface-900));
   /*Footer*/
-  --footer-divider-border-color: theme('colors.gray.700');
+  --footer-divider-border-color: light-dark(theme('colors.gray.700'), theme('colors.gray.300'));
   /*Quick Selection*/
-  --handy-person-icon-color: theme('colors.yellow.500');
-  --landscaping-icon-color: theme('colors.green.500');
-  --plumbing-icon-color: theme('colors.blue.500');
-  --cleaning-icon-color: theme('colors.purple.500');
-  --electrical-icon-color: theme('colors.orange.500');
+  --handy-person-icon-color: light-dark(theme('colors.yellow.500'), theme('colors.yellow.100'));
+  --landscaping-icon-color: light-dark(theme('colors.green.500'), theme('colors.green.100'));
+  --plumbing-icon-color: light-dark(theme('colors.blue.500'), theme('colors.blue.100'));
+  --cleaning-icon-color: light-dark(theme('colors.purple.500'), theme('colors.purple.100'));
+  --electrical-icon-color: light-dark(theme('colors.orange.500'), theme('colors.orange.100'));
+  --concrete-icon-color: light-dark(theme('colors.gray.500'), theme('colors.gray.100'));
+  --painting-icon-color: light-dark(theme('colors.pink.500'), theme('colors.pink.100'));
+  --roofing-icon-color: light-dark(theme('colors.slate.500'), theme('colors.slate.100'));
+  --fencing-icon-color: light-dark(theme('colors.amber.700'), theme('colors.amber.100'));
+  --hvac-icon-color: light-dark(theme('colors.cyan.500'), theme('colors.cyan.100'));
+  --remodeling-icon-color: light-dark(theme('colors.teal.500'), theme('colors.teal.100'));
+  --windows-icon-color: light-dark(theme('colors.sky.500'), theme('colors.sky.100'));
 }

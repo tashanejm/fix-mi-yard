@@ -1,6 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 
-@import "tailwindcss";
+@import 'tailwindcss';
+@import 'tailwindcss-primeui';
 /*@import 'tailwindcss/preflight';*/
 @import '@material-symbols/font-400';
 /*@tailwind utilities;*/
@@ -8,17 +9,15 @@
 @import './light.css';
 @import './dark.css';
 
-html, body {
-  @apply h-full m-0 p-0;
-}
-
-body {
-  @apply overflow-auto;
-}
-
 @layer base {
   html, body {
-    font-family: "Roboto", system-ui, sans-serif;
+    @apply h-full m-0 p-0;
+    font-family: 'Roboto', system-ui, sans-serif;
+  }
+
+  body {
+    @apply overflow-auto;
+    background-color: var(--global-background-color);
   }
 
   html {

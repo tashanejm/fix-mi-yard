@@ -6,7 +6,7 @@ export const routes: Routes = [
   {
     path: NavigationRoute.HOMEPAGE,
     loadComponent: () => Homepage,
-    title: 'page.home.title'
+    title: 'page.homepage.title'
   },
   // {
   //   path: NavigationRoute.HOW_IT_WORKS,

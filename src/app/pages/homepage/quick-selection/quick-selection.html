@@ -1,4 +1,4 @@
-<div class="py-4 px-16 flex gap-8 w-full overflow-x-auto">
+<div class="flex gap-8 overflow-hidden w-full overflow-x-auto">
   @for (selection of selections(); track selection.value.key) {
     <div class="flex flex-col items-center gap-2 hover:scale-110 transition-transform">
       <button pButton pRipple type="button" [rounded]="true" [text]="true" [dt]="selection.value.data" (click)="onSelection(selection)">

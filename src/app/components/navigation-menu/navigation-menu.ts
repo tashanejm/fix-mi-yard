@@ -23,7 +23,7 @@ export class NavigationMenu extends Base {
     this.navigationItems$ = computed(() => {
       return [
         {
-          label: this.translateService.instant('page.home.title'),
+          label: this.translateService.instant('page.homepage.title'),
           icon: 'pi pi-home',
           routerLink: this.navigationRoute.HOMEPAGE
         },
