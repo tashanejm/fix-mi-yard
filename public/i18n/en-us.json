@@ -96,8 +96,16 @@
       "title": "Home"
     },
     "howItWorks": {
-      "description": "",
-      "fields": {},
+      "description": "Finding the right contractor is easy",
+      "fields": {
+        "contractorName": "Contractor's name",
+        "location": "Location",
+        "photo": "Photo",
+        "ratingAndReviews": "Rating and reviews",
+        "searchAndDiscover": "Search & Discover",
+        "searchAndDiscoverDescription": "Start by entering what you’re looking for—whether it’s a plumber, painter, or home renovation expert. The system returns the first 10 results out of all available contractors, each listing includes:",
+        "skillSummary": "Skill summary chips for quick insights"
+      },
       "title": "How it works"
     },
     "news": {

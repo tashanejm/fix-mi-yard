@@ -4,6 +4,7 @@ import { TranslatePipe } from '@ngx-translate/core';
 import { SearchCriteria } from '../../components/search-criteria/search-criteria';
 import { QuickSelection } from './quick-selection/quick-selection';
 import { PopularProjects } from './popular-projects/popular-projects';
+import { ArticlesAndAdvice } from './articles-and-advice/articles-and-advice';
 
 @Component({
   selector: 'app-homepage',
@@ -12,7 +13,8 @@ import { PopularProjects } from './popular-projects/popular-projects';
     TranslatePipe,
     SearchCriteria,
     QuickSelection,
-    PopularProjects
+    PopularProjects,
+    ArticlesAndAdvice
   ],
   templateUrl: './homepage.html',
   styleUrl: './homepage.scss'

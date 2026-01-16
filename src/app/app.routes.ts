@@ -1,6 +1,7 @@
 import { Routes } from '@angular/router';
 import { NavigationRoute } from './common/constant/navigation-route.enum';
 import { Homepage } from './pages/homepage/homepage';
+import { HowItWorks } from './pages/how-it-works/how-it-works';
 
 export const routes: Routes = [
   {
@@ -8,10 +9,11 @@ export const routes: Routes = [
     loadComponent: () => Homepage,
     title: 'page.homepage.title'
   },
-  // {
-  //   path: NavigationRoute.HOW_IT_WORKS,
-  //   loadChildren: () => import('./pages/how-it-works/how-it-works.routes').then(r => r.routes)
-  // },
+  {
+    path: NavigationRoute.HOW_IT_WORKS,
+    loadComponent: () => HowItWorks,
+    title: 'page.howItWorks.title'
+  },
   // {
   //   path: NavigationRoute.FOR_CONTRACTORS,
   //   loadChildren: () => import('./pages/for-contractors/for-contractors.routes').then(r => r.routes)

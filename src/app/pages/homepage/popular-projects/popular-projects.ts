@@ -87,7 +87,7 @@ export class PopularProjects extends Base {
             description: this.translateService.instant('page.homepage.popularProjects.project5Description')
           }
         },
-        {
+      /*  {
           label: this.translateService.instant('page.homepage.fields.welder'),
           value: {
             key: 'welder',
@@ -142,7 +142,7 @@ export class PopularProjects extends Base {
             image: '/images/mock/tile-installation.jpg',
             description: this.translateService.instant('page.homepage.popularProjects.project5Description')
           }
-        }
+        }*/
       ];
     });
   }
