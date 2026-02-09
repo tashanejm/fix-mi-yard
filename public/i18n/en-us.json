@@ -99,6 +99,10 @@
       "description": "Finding the right contractor is easy",
       "fields": {
         "contractorName": "Contractor's name",
+        "connectWithAContractor": "Connect with a contractor",
+        "connectWithAContractorDescription": "Once you find a contractor that seems like a good fit, you can easily connect with them through our platform. Send them a message to discuss your project details, ask any questions you may have, and get a sense of their communication style. This is your opportunity to establish a rapport and ensure that they understand your needs before moving forward.",
+        "exploreContractorProfiles": "Explore Contractor Profiles",
+        "exploreContractorProfilesDescription": "Click on any contractor that catches your eye to see a deeper profile. Get access to more detailed information, including customer reviews, ratings, and photos of their previous work. This will help you make an informed decision about which contractor is the best fit for your project.",
         "location": "Location",
         "photo": "Photo",
         "ratingAndReviews": "Rating and reviews",

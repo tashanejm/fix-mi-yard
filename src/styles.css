@@ -6,8 +6,7 @@
 @import '@material-symbols/font-400';
 /*@tailwind utilities;*/
 /*@import url('fonts.googleapis.com');*/
-@import './light.css';
-@import './dark.css';
+@import './theme-light-dark.css';
 
 @layer base {
   html, body {

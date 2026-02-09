@@ -36,24 +36,44 @@ export class HowItWorks extends Base {
               {
                 icon: this.materialSymbols.BADGE,
                 label: this.translateService.instant('page.howItWorks.fields.contractorName'),
+                iconStyleClass: 'text-[var(--contractor-name-icon-color)]',
                 key: 'contractorName'
               },
               {
                 icon: this.materialSymbols.PHOTO,
                 label: this.translateService.instant('page.howItWorks.fields.photo'),
+                iconStyleClass: 'text-[var(--photo-icon-color)]',
                 key: 'photo'
               },
               {
-                icon: this.materialSymbols.LOCATION_CITY,
+                icon: this.materialSymbols.LOCATION_ON,
                 label: this.translateService.instant('page.howItWorks.fields.location'),
+                iconStyleClass: 'text-[var(--location-icon-color)]',
                 key: 'location'
               },
               {
                 icon: this.materialSymbols.STAR,
                 label: this.translateService.instant('page.howItWorks.fields.ratingAndReviews'),
+                iconStyleClass: 'text-[var(--rating-icon-color)]',
                 key: 'ratingAndReviews'
               }
             ]
+          }
+        },
+        {
+          label: this.translateService.instant('page.howItWorks.fields.exploreContractorProfiles'),
+          value: {
+            description: this.translateService.instant('page.howItWorks.fields.exploreContractorProfilesDescription'),
+            image: '/images/mock/explore-contractor-profiles.jpg',
+            key: 'exploreContractorProfiles'
+          }
+        },
+        {
+          label: this.translateService.instant('page.howItWorks.fields.connectWithAContractor'),
+          value: {
+            description: this.translateService.instant('page.howItWorks.fields.connectWithAContractorDescription'),
+            image: '/images/mock/connect-with-a-contractor.jpg',
+            key: 'connectWithAContractor'
           }
         }
       ];

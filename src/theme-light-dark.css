@@ -1,6 +1,10 @@
 :root {
   --global-background-color: light-dark(var(--p-surface-0), var(--p-surface-900));
   --global-page-title-background-color: light-dark(var(--p-surface-50), var(--p-surface-900));
+  /*GLOBAL ICONS*/
+  --info-icon-color: light-dark(theme('colors.blue.500'), theme('colors.blue.300'));
+  --location-icon-color: light-dark(theme('colors.red.500'), theme('colors.red.300'));
+  --rating-icon-color: light-dark(theme('colors.yellow.500'), theme('colors.yellow.300'));
   /*Footer*/
   --footer-divider-border-color: light-dark(theme('colors.gray.700'), theme('colors.gray.300'));
   /*How It Works*/
