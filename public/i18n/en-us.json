@@ -119,7 +119,12 @@
     },
     "services": {
       "description": "",
-      "fields": {},
+      "fields": {
+        "topRatedProsForYourProject": "Top-rated pros for your project",
+        "relevance": "Relevance",
+        "topRated": "Top Rated",
+        "mostReviewed": "Most Reviewed"
+      },
       "title": "Services"
     },
     "termsOfUse": {

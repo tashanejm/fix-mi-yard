@@ -1,23 +1,22 @@
 import { Routes } from '@angular/router';
 import { NavigationRoute } from './common/constant/navigation-route.enum';
-import { Homepage } from './pages/homepage/homepage';
-import { HowItWorks } from './pages/how-it-works/how-it-works';
 
 export const routes: Routes = [
   {
     path: NavigationRoute.HOMEPAGE,
-    loadComponent: () => Homepage,
+    loadComponent: () => import('./pages/homepage/homepage').then(m => m.Homepage),
     title: 'page.homepage.title'
   },
   {
     path: NavigationRoute.HOW_IT_WORKS,
-    loadComponent: () => HowItWorks,
+    loadComponent: () => import('./pages/how-it-works/how-it-works').then(m => m.HowItWorks),
     title: 'page.howItWorks.title'
   },
-  // {
-  //   path: NavigationRoute.FOR_CONTRACTORS,
-  //   loadChildren: () => import('./pages/for-contractors/for-contractors.routes').then(r => r.routes)
-  // },
+  {
+    path: NavigationRoute.SERVICES,
+    loadComponent: () => import('./pages/services/services').then(m => m.Services),
+    title: 'page.services.title'
+  },
   // {
   //   path: NavigationRoute.ARTICLES_AND_ADVICE,
   //   loadChildren: () => import('./pages/articles-and-advice/articles-and-advice.routes').then(r => r.routes)
@@ -29,6 +28,6 @@ export const routes: Routes = [
   },
   {
     path: NavigationRoute.WILDCARD,
-    loadComponent: () => Homepage
+    loadComponent: () => import('./pages/homepage/homepage').then(m => m.Homepage)
   }
 ];

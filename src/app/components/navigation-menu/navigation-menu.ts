@@ -33,9 +33,9 @@ export class NavigationMenu extends Base {
           routerLink: this.navigationRoute.HOW_IT_WORKS
         },
         {
-          label: this.translateService.instant('page.forContractors.title'),
+          label: this.translateService.instant('page.services.title'),
           icon: 'pi pi-envelope',
-          routerLink: this.navigationRoute.FOR_CONTRACTORS
+          routerLink: this.navigationRoute.SERVICES
         },
         {
           label: this.translateService.instant('page.articlesAndAdvice.title'),
