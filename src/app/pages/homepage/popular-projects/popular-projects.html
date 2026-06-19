@@ -10,10 +10,10 @@
       </button>
     </div>
   </div>
-  <p-carousel #carousel [value]="projects()" [numVisible]="5" [numScroll]="1" [responsiveOptions]="responsiveOptions()"
+  <p-carousel #carousel [value]="projects$()" [numVisible]="5" [numScroll]="1" [responsiveOptions]="responsiveOptions$()"
               [autoplayInterval]="5000" [showNavigators]="false" [showIndicators]="false" [circular]="true">
     <ng-template #item let-project>
-      <p-card class="m-2" [dt]="designToken.card">
+      <p-card class="m-2" [dt]="designToken?.card">
         <div class="relative w-full h-48 mb-4 overflow-hidden rounded-2xl">
           <img class="object-cover" fill [alt]="project.value.description" [ngSrc]="project.value.image"/>
         </div>

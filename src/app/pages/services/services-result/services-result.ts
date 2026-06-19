@@ -19,13 +19,13 @@ import { FormsModule } from '@angular/forms';
 })
 export class ServicesResult extends Base {
   public sortOptions!: Signal<SelectItem[]>;
-  protected selectedSortOption: WritableSignal<string> = signal('relevance' );
+  protected selectedSortOption: WritableSignal<string> = signal('relevance');
 
   constructor() {
     super();
     this.computeSortOptions();
     effect(() => {
-      console.log(this.selectedSortOption())
+      console.log(this.selectedSortOption());
     });
   }
 

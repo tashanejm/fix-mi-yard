@@ -15,7 +15,7 @@ import { Ripple } from 'primeng/ripple';
   styleUrl: './quick-selection.scss'
 })
 export class QuickSelection extends Base {
-  public selections!: Signal<SelectItem[]>;
+  public selections$!: Signal<SelectItem[]>;
   public readonly selectionChange: OutputEmitterRef<string> = output();
 
   constructor() {
@@ -28,7 +28,7 @@ export class QuickSelection extends Base {
   }
 
   private computeSelections(): void {
-    this.selections = computed(() => {
+    this.selections$ = computed(() => {
       // Register dependency on language change to update translations
       this.languageChange();
 

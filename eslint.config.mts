@@ -117,6 +117,12 @@ export default defineConfig([
           allowSuffix: '$'
         }
       ],
+      "@angular-eslint/template/no-duplicate-attributes": [
+        "error",
+        {
+          "allowStylePrecedenceDuplicates": true
+        }
+      ],
       '@angular-eslint/template/i18n': [
         'error',
         {

@@ -2,7 +2,7 @@ import { Component, computed, Signal } from '@angular/core';
 import { TranslatePipe } from '@ngx-translate/core';
 import { Base } from '../../common/base';
 import { SelectItem } from 'primeng/api';
-import {NgClass, NgOptimizedImage} from '@angular/common';
+import { NgClass, NgOptimizedImage } from '@angular/common';
 
 @Component({
   selector: 'app-how-it-works',
@@ -15,7 +15,7 @@ import {NgClass, NgOptimizedImage} from '@angular/common';
   styleUrl: './how-it-works.scss'
 })
 export class HowItWorks extends Base {
-  public items!: Signal<SelectItem[]>;
+  public items$!: Signal<SelectItem[]>;
 
   constructor() {
     super();
@@ -23,7 +23,7 @@ export class HowItWorks extends Base {
   }
 
   private computeItems(): void {
-    this.items = computed(() => {
+    this.items$ = computed(() => {
       this.languageChange();
 
       return [

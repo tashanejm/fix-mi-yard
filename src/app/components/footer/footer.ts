@@ -18,15 +18,23 @@ import { TranslatePipe } from '@ngx-translate/core';
   styleUrl: './footer.scss'
 })
 export class Footer extends Base {
-  public items!: Signal<MenuItem[]>;
+  public items$!: Signal<MenuItem[]>;
 
   constructor() {
     super();
     this.computeItems();
   }
 
+  protected override initDesignToken(): void {
+    this.designToken = {
+      divider: {
+        borderColor: 'var(--footer-divider-border-color)'
+      }
+    };
+  }
+
   private computeItems(): void {
-    this.items = computed(() => {
+    this.items$ = computed(() => {
       return [
         {
           label: this.translateService.instant('common.fields.product'),
@@ -87,7 +95,7 @@ export class Footer extends Base {
               target: '_blank'
             }
           ]
-        },
+        }
         // {
         //   label: this.translateService.instant('common.fields.legal'),
         //   id: 'legal',
@@ -106,13 +114,5 @@ export class Footer extends Base {
         // }
       ];
     });
-  }
-
-  protected override initDesignToken(): void {
-    this.designToken = {
-      divider: {
-        borderColor: 'var(--footer-divider-border-color)'
-      }
-    };
   }
 }

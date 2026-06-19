@@ -24,8 +24,8 @@ import { CarouselResponsiveOptions } from 'primeng/types/carousel';
   styleUrl: './popular-projects.scss'
 })
 export class PopularProjects extends Base {
-  public projects!: Signal<SelectItem[]>;
-  public readonly responsiveOptions: WritableSignal<CarouselResponsiveOptions[]> = signal([]);
+  public projects$!: Signal<SelectItem[]>;
+  public readonly responsiveOptions$: WritableSignal<CarouselResponsiveOptions[]> = signal([]);
 
   constructor() {
     super();
@@ -42,7 +42,7 @@ export class PopularProjects extends Base {
   }
 
   private computeProjects(): void {
-    this.projects = computed(() => {
+    this.projects$ = computed(() => {
       // Register dependency on language change to update translations
       this.languageChange();
 
@@ -86,7 +86,7 @@ export class PopularProjects extends Base {
             image: '/images/mock/electrical.jpg',
             description: this.translateService.instant('page.homepage.popularProjects.project5Description')
           }
-        },
+        }
       /*  {
           label: this.translateService.instant('page.homepage.fields.welder'),
           value: {
@@ -142,13 +142,13 @@ export class PopularProjects extends Base {
             image: '/images/mock/tile-installation.jpg',
             description: this.translateService.instant('page.homepage.popularProjects.project5Description')
           }
-        }*/
+        } */
       ];
     });
   }
 
   private initResponsiveOptions(): void {
-    this.responsiveOptions.set([
+    this.responsiveOptions$.set([
       {
         breakpoint: '1536px',
         numVisible: 5,

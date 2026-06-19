@@ -63,31 +63,31 @@ export const appConfig: ApplicationConfig = {
               950: '{slate.950}'
             },
             colorScheme: {
-      /*        light: {
-                surface: {
-                  // Map PrimeNG tokens to Tailwind 4 CSS variables
-                  0: '#ffffff',
-                  50: 'var(--color-green-50)',
-                  100: 'var(--color-green-100)',
-                  200: 'var(--color-green-200)',
-                  300: 'var(--color-green-300)',
-                  400: 'var(--color-green-400)',
-                  500: 'var(--color-green-500)',
-                  600: 'var(--color-green-600)',
-                  700: 'var(--color-green-700)',
-                  800: 'var(--color-green-800)',
-                  900: 'var(--color-green-900)',
-                  950: 'var(--color-green-950)'
-                }
-              },
-              dark: {
-                surface: {
-                  0: 'var(--color-green-950)', // Background for dark mode
-                  50: 'var(--color-green-900)',
-                  // ... and so on
-                  950: '#000000'
-                }
-              }*/
+              /*        light: {
+                        surface: {
+                          // Map PrimeNG tokens to Tailwind 4 CSS variables
+                          0: '#ffffff',
+                          50: 'var(--color-green-50)',
+                          100: 'var(--color-green-100)',
+                          200: 'var(--color-green-200)',
+                          300: 'var(--color-green-300)',
+                          400: 'var(--color-green-400)',
+                          500: 'var(--color-green-500)',
+                          600: 'var(--color-green-600)',
+                          700: 'var(--color-green-700)',
+                          800: 'var(--color-green-800)',
+                          900: 'var(--color-green-900)',
+                          950: 'var(--color-green-950)'
+                        }
+                      },
+                      dark: {
+                        surface: {
+                          0: 'var(--color-green-950)', // Background for dark mode
+                          50: 'var(--color-green-900)',
+                          // ... and so on
+                          950: '#000000'
+                        }
+                      } */
             }
           }
         })

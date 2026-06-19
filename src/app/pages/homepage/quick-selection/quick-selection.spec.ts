@@ -10,7 +10,7 @@ describe('QuickSelection', () => {
     await TestBed.configureTestingModule({
       imports: [QuickSelection]
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(QuickSelection);
     component = fixture.componentInstance;

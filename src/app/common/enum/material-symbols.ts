@@ -3655,5 +3655,5 @@ export enum MaterialSymbol {
   ZOOM_IN = 'zoom_in',
   ZOOM_IN_MAP = 'zoom_in_map',
   ZOOM_OUT = 'zoom_out',
-  ZOOM_OUT_MAP = 'zoom_out_map',
+  ZOOM_OUT_MAP = 'zoom_out_map'
 }

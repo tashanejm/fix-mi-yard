@@ -10,7 +10,7 @@ describe('SearchCriteria', () => {
     await TestBed.configureTestingModule({
       imports: [SearchCriteria]
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(SearchCriteria);
     component = fixture.componentInstance;
