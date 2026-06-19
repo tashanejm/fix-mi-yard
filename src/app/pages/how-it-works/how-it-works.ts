@@ -2,14 +2,13 @@ import { Component, computed, Signal } from '@angular/core';
 import { TranslatePipe } from '@ngx-translate/core';
 import { Base } from '../../common/base';
 import { SelectItem } from 'primeng/api';
-import { NgClass, NgOptimizedImage } from '@angular/common';
+import { NgOptimizedImage } from '@angular/common';
 
 @Component({
   selector: 'app-how-it-works',
   imports: [
     TranslatePipe,
-    NgOptimizedImage,
-    NgClass
+    NgOptimizedImage
   ],
   templateUrl: './how-it-works.html',
   styleUrl: './how-it-works.scss'
