@@ -1,0 +1,8 @@
+:host ::ng-deep {
+  .services-search-background-image {
+    background-image: url('/images/mock/services.jpg');
+    background-size: cover;
+    height: 50vh;
+    padding: 2rem 4rem;
+  }
+}
