@@ -24,7 +24,6 @@ export const appConfig: ApplicationConfig = {
     provideZonelessChangeDetection(),
     provideHttpClient(),
     provideRouter(routes),
-    // provideAnimationsAsync(),
     provideAppInitializer(appInitializer),
     provideBrowserGlobalErrorListeners(),
     provideRouter(routes),

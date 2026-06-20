@@ -7,5 +7,6 @@ export function appInitializer(): Observable<unknown> | Promise<unknown> {
   const translateService: TranslateService = inject<TranslateService>(TranslateService);
   translateService.addLangs([ENGLISH_US]);
   translateService.setFallbackLang(ENGLISH_US);
+  
   return translateService.use(ENGLISH_US);
 }
