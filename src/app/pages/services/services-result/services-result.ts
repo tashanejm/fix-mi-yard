@@ -18,7 +18,7 @@ import { FormsModule } from '@angular/forms';
   styleUrl: './services-result.scss'
 })
 export class ServicesResult extends Base {
-  public sortOptions!: Signal<SelectItem[]>;
+  public sortOptions$!: Signal<SelectItem[]>;
   protected selectedSortOption: WritableSignal<string> = signal('relevance');
 
   constructor() {
@@ -30,7 +30,7 @@ export class ServicesResult extends Base {
   }
 
   private computeSortOptions(): void {
-    this.sortOptions = computed(() => {
+    this.sortOptions$ = computed(() => {
       return [
         { label: this.translateService.instant('page.services.fields.relevance'), value: 'relevance' },
         { label: this.translateService.instant('page.services.fields.topRated'), value: 'topRated' },
