@@ -1,0 +1,141 @@
+{
+  "application": {
+    "description": "",
+    "title": "FixMiYard"
+  },
+  "common": {
+    "actions": {
+      "cleaning": "Cleaning",
+      "concrete": "Concrete",
+      "electrical": "Electrical",
+      "fencing": "Fencing",
+      "handyperson": "Handyperson",
+      "hvac": "HVAC",
+      "joinAsPro": "Join as Pro",
+      "landscaping": "Landscaping",
+      "logIn": "Log In",
+      "painting": "Painting",
+      "plumbing": "Plumbing",
+      "remodeling": "Remodeling",
+      "roofing": "Roofing",
+      "signUp": "Sign Up",
+      "windows": "Windows"
+    },
+    "components": {
+      "footer": {
+        "copyright": "© {{year}} FixMiYard. All rights reserved.",
+        "slogan": "Get it fixed. Get it done."
+      }
+    },
+    "fields": {
+      "company": "Company",
+      "facebook": "Facebook",
+      "instagram": "Instagram",
+      "legal": "Legal",
+      "product": "Product",
+      "searchCriteria": "Search Criteria",
+      "social": "Social"
+    },
+    "placeholder": {
+      "whatCanWeHelpYouWith": "What can we help you with?"
+    }
+  },
+  "page": {
+    "articlesAndAdvice": {
+      "description": "",
+      "fields": {},
+      "title": "Articles & Advice"
+    },
+    "blog": {
+      "description": "",
+      "fields": {},
+      "title": "Blog"
+    },
+    "contact": {
+      "description": "",
+      "fields": {},
+      "title": "Contact"
+    },
+    "customerService": {
+      "description": "",
+      "fields": {},
+      "title": "Customer Service"
+    },
+    "forContractors": {
+      "description": "",
+      "fields": {},
+      "title": "For Contractors"
+    },
+    "homepage": {
+      "description": "",
+      "fields": {
+        "carpenter": "Carpenter",
+        "electricalHelp": "Electrical Help",
+        "fenceRepair": "Fence Repair",
+        "furnitureAssembly": "Furniture Assembly",
+        "gardenMaintenance": "Garden Maintenance",
+        "helpMoving": "Help Moving",
+        "homeCleaning": "Home Cleaning",
+        "mountArtOrShelves": "Mount Art or Shelves",
+        "mountTv": "Mount a Tv",
+        "painting": "Painting",
+        "plumbingLeak": "Plumbing Leak Repair",
+        "popularProjects": "Popular Projects",
+        "tileInstallation": "Tile Installation",
+        "topRatedCertifiedProsInYourArea": "Find top rated-certified pros in your area",
+        "welder": "Welder"
+      },
+      "popularProjects": {
+        "project1Description": "Professionals to help with your landscaping needs",
+        "project2Description": "Skilled handy-person for various home repairs",
+        "project3Description": "Experienced plumbers for all your plumbing issues",
+        "project4Description": "Expert painters to refresh your home's look",
+        "project5Description": "Reliable roofers for repairs and installations",
+        "project6Description": "Concrete specialists for driveways, patios, and more"
+      },
+      "title": "Home"
+    },
+    "howItWorks": {
+      "description": "Finding the right contractor is easy",
+      "fields": {
+        "contractorName": "Contractor's name",
+        "connectWithAContractor": "Connect with a contractor",
+        "connectWithAContractorDescription": "Once you find a contractor that seems like a good fit, you can easily connect with them through our platform. Send them a message to discuss your project details, ask any questions you may have, and get a sense of their communication style. This is your opportunity to establish a rapport and ensure that they understand your needs before moving forward.",
+        "exploreContractorProfiles": "Explore Contractor Profiles",
+        "exploreContractorProfilesDescription": "Click on any contractor that catches your eye to see a deeper profile. Get access to more detailed information, including customer reviews, ratings, and photos of their previous work. This will help you make an informed decision about which contractor is the best fit for your project.",
+        "location": "Location",
+        "photo": "Photo",
+        "ratingAndReviews": "Rating and reviews",
+        "searchAndDiscover": "Search & Discover",
+        "searchAndDiscoverDescription": "Start by entering what you’re looking for—whether it’s a plumber, painter, or home renovation expert. The system returns the first 10 results out of all available contractors, each listing includes:",
+        "skillSummary": "Skill summary chips for quick insights"
+      },
+      "title": "How it works"
+    },
+    "news": {
+      "description": "",
+      "fields": {},
+      "title": "News"
+    },
+    "services": {
+      "description": "",
+      "fields": {
+        "topRatedProsForYourProject": "Top-rated pros for your project",
+        "relevance": "Relevance",
+        "topRated": "Top Rated",
+        "mostReviewed": "Most Reviewed"
+      },
+      "title": "Services"
+    },
+    "termsOfUse": {
+      "description": "",
+      "fields": {},
+      "title": "Terms of Use"
+    },
+    "whatIsFixMiYard": {
+      "description": "",
+      "fields": {},
+      "title": "What is FixMiYard?"
+    }
+  }
+}

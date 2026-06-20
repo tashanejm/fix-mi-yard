@@ -1,0 +1,26 @@
+<div class="flex flex-col w-full h-36 justify-center items-center gap-6 bg-[var(--global-page-title-background-color)]">
+  <h2 class="font-bold text-4xl">{{'page.howItWorks.title' | translate}}</h2>
+  <span class="text-lg">{{'page.howItWorks.description' | translate}}</span>
+</div>
+<div class="p-16 flex flex-col w-full gap-10 lg:gap-20">
+  @for (item of items$(); track item.value.key) {
+    <div class="flex flex-col w-full gap-8 items-center lg:flex-row lg:px-106" [class.lg:flex-row-reverse]="$odd">
+      <div class="flex flex-col gap-4">
+        <i class="material-symbols-outlined text-4xl text-[var(--info-icon-color)]">{{materialSymbols.INFO}}</i>
+        <span class="font-bold text-3xl" [id]="item.value.id">{{item.label}}</span>
+        <p class="text-2xl">{{item.value.description}}</p>
+        @if (item.value.details) {
+          @for (detail of item.value.details; track detail.id) {
+            <div class="flex items-center gap-4">
+              <i class="material-symbols-outlined text-lg" [class]="detail.iconStyleClass">{{detail.icon}}</i>
+              <span>{{detail.label}}</span>
+            </div>
+          }
+        }
+      </div>
+      <div class="relative rounded-2xl overflow-hidden min-w-full min-h-96 lg:min-w-1/2 lg:min-h-96">
+        <img class="object-cover" fill [alt]="item.label" [ngSrc]="item.value.image">
+      </div>
+    </div>
+  }
+</div>
