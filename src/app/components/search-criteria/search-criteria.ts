@@ -5,6 +5,7 @@ import { InputText } from 'primeng/inputtext';
 import { Base } from '../../common/base';
 import { TranslatePipe } from '@ngx-translate/core';
 import { FormsModule } from '@angular/forms';
+import { Icon } from '../../common/directive/icon';
 
 @Component({
   selector: 'app-search-criteria',
@@ -13,7 +14,8 @@ import { FormsModule } from '@angular/forms';
     InputIcon,
     InputText,
     TranslatePipe,
-    FormsModule
+    FormsModule,
+    Icon
   ],
   templateUrl: './search-criteria.html',
   styleUrl: './search-criteria.scss'

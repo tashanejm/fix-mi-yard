@@ -19,7 +19,7 @@ jobs:
         node-version: 24.x
         cache: 'npm'
     - name: NPM CI
-      run: npm ci
+      run: npm ci --force
     - name: NPM Build
       run: npm run build
     - name: Eslint

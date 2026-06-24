@@ -3,12 +3,14 @@ import { TranslatePipe } from '@ngx-translate/core';
 import { Base } from '../../common/base';
 import { SelectItem } from 'primeng/api';
 import { NgOptimizedImage } from '@angular/common';
+import { Icon } from '../../common/directive/icon';
 
 @Component({
   selector: 'app-how-it-works',
   imports: [
     TranslatePipe,
-    NgOptimizedImage
+    NgOptimizedImage,
+    Icon
   ],
   templateUrl: './how-it-works.html',
   styleUrl: './how-it-works.scss'
