@@ -2,9 +2,6 @@
 
 @import 'tailwindcss';
 @import 'tailwindcss-primeui';
-/*@import 'tailwindcss/preflight';*/
-/*@tailwind utilities;*/
-/*@import url('fonts.googleapis.com');*/
 @import './theme-light-dark.css';
 
 @layer base {
