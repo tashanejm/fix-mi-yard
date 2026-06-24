@@ -6,13 +6,13 @@
   @for (item of items$(); track item.value.key) {
     <div class="flex flex-col w-full gap-8 items-center lg:flex-row lg:px-106" [class.lg:flex-row-reverse]="$odd">
       <div class="flex flex-col gap-4">
-        <i class="material-symbols-outlined text-4xl text-[var(--info-icon-color)]">{{materialSymbols.INFO}}</i>
+        <i class="text-4xl text-[var(--info-icon-color)]" [appIcon]="materialSymbols.INFO"></i>
         <span class="font-bold text-3xl" [id]="item.value.id">{{item.label}}</span>
         <p class="text-2xl">{{item.value.description}}</p>
         @if (item.value.details) {
           @for (detail of item.value.details; track detail.id) {
             <div class="flex items-center gap-4">
-              <i class="material-symbols-outlined text-lg" [class]="detail.iconStyleClass">{{detail.icon}}</i>
+              <i class="text-lg" [class]="detail.iconStyleClass">{{detail.icon}}</i>
               <span>{{detail.label}}</span>
             </div>
           }

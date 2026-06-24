@@ -8,6 +8,7 @@ import { NgOptimizedImage } from '@angular/common';
 import { ButtonDirective, ButtonIcon } from 'primeng/button';
 import { Ripple } from 'primeng/ripple';
 import { CarouselResponsiveOptions } from 'primeng/types/carousel';
+import { Icon } from '../../../common/directive/icon';
 
 @Component({
   selector: 'app-popular-projects',
@@ -18,7 +19,8 @@ import { CarouselResponsiveOptions } from 'primeng/types/carousel';
     NgOptimizedImage,
     ButtonIcon,
     ButtonDirective,
-    Ripple
+    Ripple,
+    Icon
   ],
   templateUrl: './popular-projects.html',
   styleUrl: './popular-projects.scss'

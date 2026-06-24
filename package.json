@@ -8,7 +8,8 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "lint": "ng lint",
-    "eslint": "npx eslint --format @microsoft/eslint-formatter-sarif --output-file eslint-report.sarif"
+    "eslint": "npx eslint --format @microsoft/eslint-formatter-sarif --output-file eslint-report.sarif",
+    "generate:material-symbols": "node ./scripts/generate-material-symbols.js"
   },
   "prettier": {
     "printWidth": 100,

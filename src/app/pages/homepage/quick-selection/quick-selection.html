@@ -2,7 +2,7 @@
   @for (selection of selections$(); track selection.value.key) {
     <div class="flex flex-col items-center gap-2 hover:scale-110 transition-transform">
       <button pButton pRipple type="button" [rounded]="true" [text]="true" [dt]="selection.value.data" (click)="onSelection(selection)">
-        <i pButtonIcon class="material-symbols-outlined">{{ selection.icon }}</i>
+        <i pButtonIcon [appIcon]="selection.icon"></i>
       </button>
       <span>{{ selection.label }}</span>
     </div>

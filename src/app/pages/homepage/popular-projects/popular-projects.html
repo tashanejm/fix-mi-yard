@@ -3,10 +3,10 @@
     <h2 class="text-2xl font-bold">{{ 'page.homepage.fields.popularProjects' | translate }}</h2>
     <div class="flex justify-end gap-x-2">
       <button pButton pRipple type="button" [text]="true" [rounded]="true" (click)="carousel.navBackward($event)">
-        <i pButtonIcon class="material-symbols-outlined">{{ materialSymbols.CHEVRON_LEFT }}</i>
+        <i pButtonIcon [appIcon]="materialSymbols.CHEVRON_LEFT"></i>
       </button>
       <button pButton pRipple type="button" [text]="true" [rounded]="true" (click)="carousel.navForward($event)">
-        <i pButtonIcon class="material-symbols-outlined">{{ materialSymbols.CHEVRON_RIGHT }}</i>
+        <i pButtonIcon [appIcon]="materialSymbols.CHEVRON_RIGHT"></i>
       </button>
     </div>
   </div>
